@@ -1,7 +1,7 @@
 # pmn_demo
 This repository contains code for running trained model of Visual Reasoning by Progressive Module Networks (ICLR19)
 
-Paper: https://openreview.net/forum?id=B1fpDsAqt7
+Paper: https://arxiv.org/abs/1806.02453 (Arxiv), https://openreview.net/forum?id=B1fpDsAqt7 (OpenReview)
 
 Dependencies:
 pytorch 0.3, python 2.7
