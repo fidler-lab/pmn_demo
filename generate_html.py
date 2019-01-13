@@ -12,8 +12,6 @@ def create_html(img_id, path, info):
     for entry in info['gt_ans']:
         if info['pred_ans'][0] == entry[0]:
             correct = True
-    if not correct:
-        return ''
     s = '<br/><br/><br/><div><h3>Img_id: ' + img_id + '</h3>\n'
     s += '<div>\n'
     s += '<h5>Input image and question: ' + info['question'] + '</h5><br/>\n'
