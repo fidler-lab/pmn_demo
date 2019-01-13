@@ -10,13 +10,13 @@ parser.add_argument('--batch_size', type=int, default=32, metavar='N',
                     help='batch size (default: 32)')
 parser.add_argument('--log_dir', type=str, default='test', metavar='N',
                     help='log directory')
-parser.add_argument('--resume_path', type=str, default='model_ckpt.t7', metavar='N',
+parser.add_argument('--resume_path', type=str, default='./model_ckpt.t7', metavar='N',
                     help='path to saved model')
-parser.add_argument('--dict_path', type=str, default='data/dicts.p', metavar='N',
+parser.add_argument('--dict_path', type=str, default='./data/dicts.p', metavar='N',
                     help='path to saved dictionaries')
-parser.add_argument('--data_path', type=str, default='data/demo_data.p', metavar='N',
+parser.add_argument('--data_path', type=str, default='./data/demo_data.p', metavar='N',
                     help='path to data file')
-parser.add_argument('--img_path', type=str, default='', metavar='N',
+parser.add_argument('--img_path', type=str, default='./img_data', metavar='N',
                     help='path to img file')
 parser.add_argument('--wvec', action='store_true', default=False,
                     help='do wvec attention')
